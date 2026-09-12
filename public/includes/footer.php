@@ -13,11 +13,15 @@
                         <a href="<?= BASE_URL ?>/index.php">Impact Dashboard</a>
                         <a href="<?= BASE_URL ?>/auth.php">Join Platform</a>
                     </div>
+                    <div class="link-group">
+                        <h4>More</h4>
+                        <a href="<?= BASE_URL ?>/credits.php">Credits</a>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; <?= date('Y') ?> Annapoorna Platform. All rights reserved.</p>
-                <p class="metrics-note">* Impact metrics calculated using EPA WARM model equivalents (0.45 kg CO2e per kg organic waste diverted from landfill).</p>
+                <p class="metrics-note"><a href="<?= BASE_URL ?>/surprise.php" style="color: inherit; text-decoration: none; cursor: default;" title="">* Impact metrics calculated using EPA WARM model equivalents (0.45 kg CO2e per kg organic waste diverted from landfill).</a></p>
             </div>
         </div>
     </footer>
